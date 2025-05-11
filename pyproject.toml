@@ -5,7 +5,7 @@ description = "Filter pytest marks by name using match kw"
 readme = "README.md"
 authors = [ {name = "Ygor Pontelo", "email" = "ygorpontelo@gmail.com"} ]
 license = "MIT"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 dependencies = [
     "pytest>=8.3.0",
 ]
