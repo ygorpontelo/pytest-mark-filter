@@ -1,6 +1,6 @@
 [project]
 name = "pytest-mark-filter"
-version = "0.1.1"
+version = "0.1.2"
 description = "Filter pytest marks by name using match kw"
 readme = "README.md"
 authors = [ {name = "Ygor Pontelo", "email" = "ygorpontelo@gmail.com"} ]
