@@ -2,10 +2,10 @@ on:
   # Triggers the workflow
   push:
     branches:
-    - master
+    - main
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   run_checks:
