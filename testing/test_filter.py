@@ -4,7 +4,7 @@ import pytest
 pytest_plugins = ["pytester"]
 
 
-def parse_tests_from_output(lines: list[str]) -> list[tuple[str, str, str]]:
+def parse_tests_from_output(lines: list[str]) -> list[tuple[str, str]]:
     result = []
     for line in lines:
         if line.startswith("test_"):
